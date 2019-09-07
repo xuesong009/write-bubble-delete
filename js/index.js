@@ -6,7 +6,7 @@ window.onload = function () {
   //info
   var info = document.querySelector('.info');
 
-  var infoArr = ["匠心打造 中国芯", '2019.10 魅力临沂'];
+  var infoArr = ["匠心打造 中国芯", '2019.10 魅力临沂', '临沂人 欢迎您...'];
 
   /*text*/
   var flag = 0; //infoArr 计数
