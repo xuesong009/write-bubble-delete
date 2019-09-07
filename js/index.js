@@ -6,7 +6,7 @@ window.onload = function () {
   //info
   var info = document.querySelector('.info');
 
-  var infoArr = ["匠心打造 中国芯", '2019.10 魅力临沂', '临沂人 欢迎您...'];
+  var infoArr = ["匠心打造 中国芯", '2019.10 魅力临沂', '临沂人 欢迎您...', '大美临沂 宜居城市'];
 
   /*text*/
   var flag = 0; //infoArr 计数
@@ -38,9 +38,8 @@ window.onload = function () {
               info.innerText = '';
 
               //下一条数据
-              if (flag == 0) {
-                flag = 1;
-              } else {
+              flag++;
+              if (flag >= infoArr.length) {
                 flag = 0;
               }
               writeFn(flag);
@@ -56,7 +55,7 @@ window.onload = function () {
         // console.log(info.innerText);
         i++;
       }
-    }, 100);
+    }, 500);
   };
 
   writeFn(flag);
