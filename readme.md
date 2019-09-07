@@ -6,6 +6,7 @@
   备注:
     <1> 使用cover模仿删除效果时, .info应该处于文档流中,不应该position:absolute;top;left;z-index:1000;
     <2> 另外cover的background:rgb(255, 255, 255);
+    <3> 使用innerText会忽略空格;
 
 ###2、bubble 
 大小位置变化:

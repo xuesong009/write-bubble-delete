@@ -3,8 +3,9 @@ div.test {
   width: 180px;
   height: 80px;
   position: relative;
+  overflow: hidden;
   margin: 120px auto;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 /*遮盖层*/
