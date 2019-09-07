@@ -18,7 +18,7 @@ window.onload = function () {
 
     // 获取text,--> arr
     textArr = infoArr[flag].split('');
-    //console.log(textArr);
+    console.log(textArr);
 
     // 100ms写一个字
     var writeTimer = setInterval(function () {
@@ -51,8 +51,9 @@ window.onload = function () {
           }, 50);
         }, 1000);
       } else {
-        info.innerText += textArr[i];
-        // console.log(info.innerText += textArr[i]);
+        //使用innerText会忽略空格
+        info.innerHTML += textArr[i];
+        // console.log(info.innerText);
         i++;
       }
     }, 100);
