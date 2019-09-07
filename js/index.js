@@ -25,7 +25,7 @@ window.onload = function () {
       if (i >= textArr.length) { // 写完
         clearInterval(writeTimer);
 
-        //延时3s
+        //延时1s
         var timeOutTimer = setTimeout(function () {
           //遮罩层宽度增加 仿删除效果
           i = 1;//i重置
